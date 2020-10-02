@@ -1,0 +1,12 @@
+#canvas {
+	width: 85vh;
+	height: 85vh;
+	margin: auto;
+	background-color: hsl(0, 0%, 95%);
+	border: 1px solid hsl(0, 0%, 100%);
+}
+
+.square {
+	--darkness: 0;
+	background-color: hsla(0, 0%, 0%, var(--darkness));
+}
